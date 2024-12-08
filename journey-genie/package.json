@@ -1,0 +1,12 @@
+{
+  "name": "journey-genie",
+  "version": "1.0.0",
+  "description": "JourneyGenie is a cutting-edge, scalable travel planning application designed to revolutionize how users plan their trips. By harnessing the capabilities of OpenAI's GPT-3.5 APIs, the app delivers highly personalized travel itineraries with remarkable efficiency and precision.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
