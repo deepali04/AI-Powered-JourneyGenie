@@ -30,5 +30,22 @@ JourneyGenie is a cutting-edge, scalable travel planning application designed to
    ```
 **Start the Application Locally**
 ```bash
-     npm start
+   npm start
 ```
+**Access JourneyGenie**
+
+Open your web browser and navigate to http://localhost:3000 to explore **JourneyGenie's** features.
+
+## Offline Mode
+JourneyGenie supports offline mode, allowing users to access their saved travel plans without requiring an internet connection. This is achieved through browser caching and local storage mechanisms, ensuring that your itineraries are always available when you need them.
+
+## AWS Deployment
+JourneyGenie is hosted on AWS to take advantage of its robust and scalable infrastructure. The following AWS services are utilized:
+
+Amazon EC2: For scalable compute resources.
+
+Amazon S3: For secure and efficient storage of static assets.
+
+Amazon RDS: For managing relational database needs.
+
+Amazon CloudFront: For delivering content with low latency.
