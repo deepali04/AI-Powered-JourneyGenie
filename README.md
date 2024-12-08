@@ -20,7 +20,11 @@ JourneyGenie is a cutting-edge, scalable travel planning application designed to
 
 ## How to Use
 
-1. Clone this repository to your local machine.
-2. Navigate to the project directory and install dependencies for both the frontend and backend using the command:
+  **Clone the Repository**
    ```bash
-   npm install
+      git clone https://github.com/deepali04/AI-powered-JourneyGenie.git
+   ```
+**Navigate to the project directory and install dependencies for both the frontend and backend using the command:**
+   ```bash
+      npm i
+   ```
