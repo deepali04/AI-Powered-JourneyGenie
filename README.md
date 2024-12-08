@@ -18,3 +18,9 @@ JourneyGenie is a cutting-edge, scalable travel planning application designed to
 - **Authentication:** JWT (JSON Web Token)
 - **Cloud Infrastructure:** Amazon Web Services (AWS)
 
+## How to Use
+
+1. Clone this repository to your local machine.
+2. Navigate to the project directory and install dependencies for both the frontend and backend using the command:
+   ```bash
+   npm install
