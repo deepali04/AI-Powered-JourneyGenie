@@ -1,7 +1,7 @@
 
-# SmartTrip
+# AI-powered JourneyGenie
 
-SmartTrip is a cutting-edge, scalable travel planning application designed to revolutionize how users plan their trips. By harnessing the capabilities of OpenAI's GPT-3.5 APIs, the app delivers highly personalized travel itineraries with remarkable efficiency and precision.
+JourneyGenie is a cutting-edge, scalable travel planning application designed to revolutionize how users plan their trips. By harnessing the capabilities of OpenAI's GPT-3.5 APIs, the app delivers highly personalized travel itineraries with remarkable efficiency and precision.
 
 ## Key Features
 
