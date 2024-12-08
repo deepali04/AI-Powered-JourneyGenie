@@ -10,4 +10,11 @@ JourneyGenie is a cutting-edge, scalable travel planning application designed to
 - **Cloud Deployment:** Deploy SmartTrip on AWS to ensure optimized resource utilization and seamless scalability.
 - **Offline Functionality:** Access your travel plans even without an internet connection, ensuring uninterrupted usability.
 
+## Technologies Used
+
+- **Frontend:** JavaScript, ReactJS, HTML, CSS
+- **Backend:** Node.js
+- **AI Integration:** OpenAI GPT-3.5 APIs
+- **Authentication:** JWT (JSON Web Token)
+- **Cloud Infrastructure:** Amazon Web Services (AWS)
 
