@@ -22,16 +22,16 @@ JourneyGenie is a cutting-edge, scalable travel planning application designed to
 
   **Clone the Repository**
    ```bash
-      git clone https://github.com/deepali04/AI-powered-JourneyGenie.git
+      git clone [https://github.com/deepali04/AI-powered-JourneyGenie.git](https://github.com/deepali04/AI-Powered-JourneyGenie.git)
    ```
 **Navigate to the project directory and install dependencies for both the frontend and backend using the command:**
    ```bash
       npm i
    ```
 **Start the Application Locally**
-```bash
-   npm start
-```
+  ```bash
+     npm start
+  ```
 **Access JourneyGenie**
 
 Open your web browser and navigate to http://localhost:3000 to explore **JourneyGenie's** features.
@@ -49,3 +49,11 @@ Amazon S3: For secure and efficient storage of static assets.
 Amazon RDS: For managing relational database needs.
 
 Amazon CloudFront: For delivering content with low latency.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contact
+
+For inquiries, support, or feedback, please reach out via nagwade.deepali@gmail.com
