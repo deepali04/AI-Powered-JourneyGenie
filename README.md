@@ -28,3 +28,7 @@ JourneyGenie is a cutting-edge, scalable travel planning application designed to
    ```bash
       npm i
    ```
+**Start the Application Locally**
+```bash
+     npm start
+```
