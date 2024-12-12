@@ -21,7 +21,72 @@ const Planner = () => {
 
   // const navigate = useNavigate();
 
-  
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsLoading(true);
+
+    try {
+      const prompt = `Generate a personalized travel itinerary for a trip to ${destination} with a budget of ${budget}. The traveler is interested in a ${travelStyle} vacation and enjoys ${activityType} type of activities. The traveler type is ${travelerType}. The itinerary should include ${foodPreference} options for food. Please provide a detailed itinerary for ${duration} days. The traveler has also requested these preferences: ${optionalPreferences}`;
+
+      console.log(prompt);
+      const response = await axios.post("api/trips/generate", {
+        prompt,
+      });
+
+      setTripPlan(response.data);
+      console.log(response.data);
+    } catch (error) {
+      console.error(error);
+    } finally {
+      setIsLoading(false);
+    }
+    {
+      /* THIS PART FOR NEW PAGE PLAN */
+    }
+    // try {
+    //   const prompt = `Generate a personalized travel itinerary for a trip to ${destination} with a budget of ${budget}. The traveler is interested in a ${travelStyle} vacation and enjoys ${activityType} type of activities. The traveler type is ${travelerType}. The itinerary should include ${foodPreference} options for food. Please provide a detailed itinerary for ${duration} days. The traveler has also requested these preferences: ${optionalPreferences}`;
+    //   const response = await axios.post("api/trips/generate", {
+    //     prompt,
+    //   });
+    //   // navigate("/generated-trip"); // Navigate to the GeneratedTrip component
+    //   return <Navigate to="/generated-trip" />;
+    // } catch (error) {
+    //   console.error(error);
+    // }
+  };
+
+  const handleGenerateNewPlan = () => {
+    setTripPlan(null);
+    // setDestination("");
+    const formTripPlan = document.querySelector(".form-trip-plan");
+    const formBottom = document.querySelector(".form-bottom");
+    const loading = document.querySelector(".lds-roller");
+
+    // if (loading) {
+    window.scrollTo({
+      top: formBottom.offsetTop,
+      behavior: "smooth",
+    });
+    // }
+  };
+
+  const handleSaveToLocal = () => {
+    console.log("In handleSaveToLocal");
+    // Create a Blob containing the trip plan
+    const blob = new Blob([tripPlan], { type: "text/plain" });
+
+    // Create a download link
+    const link = document.createElement("a");
+    link.href = URL.createObjectURL(blob);
+    link.download = "trip_plan.txt";
+
+    // Append the link to the body and trigger the click event
+    document.body.appendChild(link);
+    link.click();
+
+    // Remove the link from the body
+    document.body.removeChild(link);
+  };
 
   return (
     <div className="plan-page-container">
@@ -343,5 +408,6 @@ const Planner = () => {
     </div>
   );
 };
+
 
 export default Planner;
