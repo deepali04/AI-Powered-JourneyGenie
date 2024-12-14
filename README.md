@@ -26,11 +26,11 @@ JourneyGenie is a cutting-edge, scalable travel planning application designed to
    ```
 **Navigate to the project directory and install dependencies for both the frontend and backend using the command:**
    ```bash
-      npm i
+   npm i
    ```
 **Start the Application Locally**
   ```bash
-     npm start
+  npm start
   ```
 **Access JourneyGenie**
 
