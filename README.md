@@ -14,7 +14,7 @@ JourneyGenie is a cutting-edge, scalable travel planning application designed to
 
 - **Frontend:** JavaScript, ReactJS, HTML, CSS
 - **Backend:** Node.js
-- **AI Integration:** OpenAI GPT-3.5 APIs
+- **AI Integration:** OpenAI ChatGPT-3.5 APIs
 - **Authentication:** JWT (JSON Web Token)
 - **Cloud Infrastructure:** Amazon Web Services (AWS)
 
@@ -37,14 +37,14 @@ JourneyGenie is a cutting-edge, scalable travel planning application designed to
 Open your web browser and navigate to http://localhost:3000 to explore **JourneyGenie's** features.
 
 ## Offline Mode
-JourneyGenie supports offline mode, allowing users to access their saved travel plans without requiring an internet connection. This is achieved through browser caching and local storage mechanisms, ensuring that your itineraries are always available when you need them.
+JourneyGenie supports offline mode as well, allowing users to access their saved travel plans without requiring an internet connection. This is achieved through browser caching and local storage mechanisms, ensuring that your itineraries are always available when you need them.
 
 ## AWS Deployment
 JourneyGenie is hosted on AWS to take advantage of its robust and scalable infrastructure. The following AWS services are utilized:
 
-Amazon EC2: For scalable compute resources.
+**Amazon EC2**: For scalable compute resources.
 
-Amazon S3: For secure and efficient storage of static assets.
+**Amazon S3**: For secure and efficient storage of static assets.
 
 Amazon RDS: For managing relational database needs.
 
