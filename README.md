@@ -46,9 +46,9 @@ JourneyGenie is hosted on AWS to take advantage of its robust and scalable infra
 
 **Amazon S3**: For secure and efficient storage of static assets.
 
-Amazon RDS: For managing relational database needs.
+**Amazon RDS**: For managing relational database needs.
 
-Amazon CloudFront: For delivering content with low latency.
+**Amazon CloudFront**: For delivering content with low latency.
 
 ## License
 
