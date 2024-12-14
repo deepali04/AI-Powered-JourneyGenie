@@ -28,7 +28,7 @@ Navigate to the project directory and install dependencies for both the frontend
    ```bash
    npm i
    ```
-**Start the Application Locally**
+Start the Application Locally
   ```bash
   npm start
   ```
