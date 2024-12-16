@@ -6,7 +6,14 @@ export const setAlert =
   (dispatch) => {
     const id = uuidv4();
     //   const id = Math.random().toString(36).substring(7);
-    
+    dispatch({
+      type: SET_ALERT,
+      payload: {
+        msg,
+        alertType,
+        id,
+      },
+    });
 
     // Add class to container element
     const container = document.querySelector(".container");
